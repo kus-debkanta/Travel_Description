@@ -1,0 +1,877 @@
+.maping{
+    position: relative;
+    top: 320px;
+ }
+ #natureImg{
+      width: 80%;
+      height: 200px;
+      position: relative;
+      top: -200px;
+      left: 10%;
+      z-index: -100;
+ }
+ .area{
+     width: 60%;
+     height: 80px;
+     display: flex;
+     justify-content: space-around;
+     background-color: #fff;
+     margin: auto;
+     position: relative;
+     top: -280px;
+ }
+ .area ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    padding-left: 0px;
+}
+.area ul li{
+    width: 18%;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
+.area ul li:hover{
+    background-color: rgb(235, 233, 233);
+}
+ #firstp{
+     width: 300px;
+     margin-left: 0px;
+     font-size: 25px;
+     font-weight: 700;
+     color: rgb(226, 33, 33);
+     transform: translate(500px,-280px);
+ }
+ #firstp:after{
+     content: " ";
+     width: 2px;
+     height: 100px;
+     background-color: rgb(226, 33, 33);
+     position: absolute;
+     top: 180%;
+     left: 120px;
+ }
+ .firstdiv{
+     position: relative;
+ }
+ .firstdiv::after{
+     content: " ";
+     width: 10px;
+     height: 10px;
+     background-color: red;
+     position: absolute;
+     top: 82%;
+     left: 46%;
+     transform: rotate(45deg);
+ }
+ #secondp{
+     color: rgb(210, 143, 20);
+     padding-top: 12px;
+ }
+ .underline{
+     width: 60%;
+     height: 1px;
+     background-color: red;
+     transform: translate(33.2%, -281px);
+ }
+ .area div{
+     width: 150px;
+     height: 100%;
+     text-align: center;
+     font-size: 13px;
+     padding-top: -5px;
+     padding-right: 5px;
+     cursor: pointer;
+ }
+ .area div p{
+     margin-top: 5px;
+     font-size: 13px;
+ }
+ .america{
+     width: 60%;
+     height: 500px;
+     position: relative;
+     top: -281px;
+     left: 252px;
+ }
+ .underDiv{
+     height: 150px;
+     width: 80%;
+     margin: auto;
+     background-color: rgb(16, 16, 74);
+     position: relative;
+     top: -195px;
+     display: flex;
+     justify-content: space-between;
+ }
+ .underImage{
+     height: 200px;
+     width: 30%;
+     position: absolute;
+     left: 12.4%;
+     top: -49.9px;
+     background-image: url('Image.png');
+     background-size: contain;
+ }
+ .bgDiv{
+     height: 150px;
+     width: 40%;
+     position: relative;
+     left: 45%;
+ }
+ .bgDiv p{
+     color: white;
+     font-weight: 600;
+     font-size: 1.5vw;
+     width: 250px;
+     margin: auto;
+     margin-top: 15%;
+ }
+ .lastDiv{
+     height: 200px;
+     width: 80%;
+     margin: auto;
+     position: relative;
+     top: -150px;
+     background-color: #3b8d93;
+     z-index: -10;
+ }
+ .lastbgDiv p{
+     font-size: 30px;
+     font-weight: 600;
+     text-align: center;
+     color: rgb(7, 7, 61);
+     padding-top: 20px;
+ }
+ .lastImage{
+     width: 100%;
+     height: 350px;
+     justify-content: space-around;
+     display: flex;
+ }
+ .last_Image_Portion{
+     width: 45.5%;
+     height: 94%;
+     margin-left: 0px;
+     position: relative;
+ }
+ .last_Image_Portion img{
+     height: 80%;
+     width: 100%;
+     position: relative;
+     top: 0%;
+ }
+ .last_Image_Portion p{
+     font-size: 20px;
+     transform: translate(20px,0px);
+     width: 100%;
+ }
+ /* .lastImage div p{
+     font-size: 18px;
+     font-weight: 500;
+     color: rgb(7, 7, 162);
+     transform: translate(0px,290px);
+ 
+ } */
+ /* @media(max-width: 1300px){
+     #firstp{
+         transform: translate(500px,-300px);
+         font-size: 30px;
+         width: 400px;
+     }
+     #firstp:after{
+         left: 32%;
+     }
+     .area{
+         top: -282px;
+         height: 80px;
+     }
+     .area div{
+         font-size: 16px;
+     }
+     .firstdiv::after{
+         top: 8%;
+         height: 20px;
+         width: 20px;
+     }
+     .underline{
+         transform: translate(256px,-286px);
+         width: 60%;
+     }
+     .america{
+         left: 258px;
+         top: -285px;
+         width: 60%;
+         height: 400px;
+     }
+     .underDiv{
+         height: 180px;
+     }
+     .bgDiv{
+         height: 100%;
+         width: 50%;
+         left: 40%;
+     }
+     .bgDiv p{
+         margin: auto;
+         font-size: 30px;
+         margin-top: 45px;
+         margin-left: 50px;
+         width: 500px;
+     }
+     .underImage{
+         width: 250px;
+         height: 230px;
+     }
+     .lastbgDiv p{
+         font-size: 35px;
+     }
+     .lastImage{
+         height: 420px;
+     }
+     .lastImage div:first-child{
+         height: 70%;
+     }
+     .lastImage div:last-child{
+         height: 70%;
+     }
+     .lastImage div p{
+         transform: translate(0px, 280px);
+         font-size: 25px;
+     }
+ } */
+ 
+ /* @media(min-width: 1010px){
+     #firstp{
+         transform: translate(380px,-300px);
+         font-size: 25px;
+         width: 400px;
+     }
+     #firstp:after{
+         left: 32%;
+     }
+     .area{
+         top: -282px;
+         height: 80px;
+     }
+     .area div{
+         font-size: 15px;
+     }
+     .firstdiv::after{
+         top: 91%;
+     }
+     .underline{
+         transform: translate(205px,-285px);
+         width: 60%;
+     }
+     .america{
+         left: 200px;
+         top: -285px;
+         width: 60%;
+         height: 400px;
+     }
+     .underDiv{
+         height: 120px;
+     }
+     .bgDiv{
+         height: 120px;
+         width: 50%;
+     }
+     .bgDiv p{
+         font-size: 18px;
+         margin-top: 30px;
+     }
+     .underImage{
+         width: 200px;
+         height: 170px;
+     }
+     .lastImage{
+         height: 350px;
+     }
+     .lastImage div:first-child{
+         height: 70%;
+     }
+     .lastImage div:last-child{
+         height: 70%;
+     }
+     .lastImage div p{
+         transform: translate(0px,250px);
+         font-size: 20px;
+     }
+ } */
+ @media(max-width: 1000px){
+     #firstp{
+         transform: translate(250px,-300px);
+         font-size: 40px;
+         width: 480px;
+     }
+     #firstp:after{
+         left: 42%;
+     }
+     .area{
+         top: -330px;
+         height: 130px;
+     }
+     .area div{
+         font-size: 18px;
+         padding: 5px;
+     }
+     .area div p{
+         font-size: 17px;
+     }
+     .firstdiv::after{
+         top: 90%;
+         width: 20px;
+         height: 20px;
+     }
+     .underline{
+         transform: translate(182px,-332px);
+         width: 60%;
+     }
+     .america{
+         left: 180px;
+         top: -332px;
+         width: 60%;
+         height: 400px;
+     }
+     .underDiv{
+         height: 120px;
+     }
+     .bgDiv{
+         height: 120px;
+         width: 50%;
+     }
+     .bgDiv p{
+         font-size: 23px;
+         margin-top: 30px;
+     }
+     .lastbgDiv p{
+         font-size: 35px;
+     }
+     .underImage{
+         width: 200px;
+         height: 170px;
+     }
+     .lastImage{
+         height: 350px;
+     }
+     .lastImage div:first-child{
+         height: 70%;
+     }
+     .lastImage div:last-child{
+         height: 70%;
+     }
+     .lastImage div p{
+         transform: translate(0px,250px);
+         font-size: 25px;
+     }
+ }
+ @media(max-width: 900px){
+     #firstp{
+         transform: translate(230px,-300px);
+     }
+     #firstp:after{
+         left: 38%;
+     }
+     .area{
+         top: -309px;
+         width: 70%;
+         height: 110px;
+     }
+     .area div{
+         font-size: 15px;
+     }
+     .firstdiv::after{
+         top: 90%;
+     }
+     .underline{
+         transform: translate(123px,-310px);
+         width: 70%;
+     }
+     .america{
+         left: 123px;
+         top: -310px;
+         width: 70%;
+         height: 400px;
+     }
+     .underDiv{
+         height: 120px;
+     }
+     .bgDiv{
+         height: 120px;
+     }
+     .underImage{
+         width: 200px;
+         height: 170px;
+     }
+     .lastImage{
+         height: 330px;
+         margin-top: 20px;
+     }
+     .lastImage div:first-child{
+         height: 60%;
+     }
+     .lastImage div:last-child{
+         height: 60%;
+     }
+     .lastImage div p{
+         transform: translate(0px,200px);
+     }
+ }
+ @media(max-width: 800px){
+     #firstp{
+         transform: translate(220px,-300px);
+         font-size: 35px;
+     }
+     #firstp:after{
+         left: 35%;
+     }
+     .area{
+         top: -292px;
+         width: 70%;
+         height: 92px;
+     }
+     .area div{
+         font-size: 15px;
+     }
+     .area div p{
+         font-size: 14px;
+     }
+     .firstdiv::after{
+         top: 90%;
+     }
+     .underline{
+         transform: translate(115px,-292px);
+         width: 70%;
+     }
+     .america{
+         left: 114px;
+         top: -292px;
+         width: 70%;
+         height: 400px;
+     }
+     .underDiv{
+         height: 120px;
+     }
+     .bgDiv{
+         height: 120px;
+     }
+     .bgDiv p{
+         font-size: 18px;
+     }
+     .underImage{
+         width: 200px;
+         height: 150px;
+         top: -30px;
+     }
+     .lastImage{
+         height: 280px;
+     }
+     .lastImage div:first-child{
+         height: 70%;
+     }
+     .lastImage div:last-child{
+         height: 70%;
+     }
+     .lastImage div p{
+         transform: translate(0px,200px);
+         font-size: 20px;
+     }
+ }
+ @media(max-width: 600px){
+     #firstp{
+         transform: translate(150px,-300px);
+         width: fit-content;
+         font-size: 25px;
+     }
+     #firstp:after{
+         left: 45%;
+     }
+     .area{
+         top: -265px;
+         width: 70%;
+         height: 60px;
+     }
+     .area div{
+         font-size: 10px;
+     }
+     .area div p{
+         font-size: 9px;
+     }
+     .firstdiv::after{
+         top: 86%;
+         left: 30%;
+         width: 15px;
+         height: 15px;
+     }
+     .underline{
+         transform: translate(81px,-265px);
+         width: 70%;
+     }
+     .america{
+         left: 80px;
+         top: -265px;
+         width: 70%;
+         height: 300px;
+     }
+     .underDiv{
+         height: 100px;
+     }
+     .bgDiv{
+         height: 120px;
+     }
+     .underDiv p{
+         width: 200px;
+     }
+     .underImage{
+         left: 5%;
+         width: 180px;
+         height: 130px;
+     }
+     .bgDiv{
+         height: 100%;
+         left: 50%;
+         width: 45%;
+         padding-right: 15px;
+     }
+     .bgDiv p{
+         font-size: 15px;
+     }
+     .lastImage{
+         height: 250px;
+     }
+     .lastImage div:first-child{
+         height: 60%;
+     }
+     .lastImage div:last-child{
+         height: 60%;
+     }
+     .lastImage div p{
+         transform: translate(0px,150px);
+         font-size: 16px;
+     }
+ }
+ @media(max-width: 500px){
+     #firstp{
+         transform: translate(80px,-300px);
+         width: fit-content;
+     }
+     #firstp:after{
+         left: 45%;
+     }
+     .area{
+         top: -290px;
+         width: 70%;
+         height: 90px;
+     }
+     .area div{
+         width: fit-content;
+     }
+     .area div p{
+         font-size: 10px;
+     }
+     .firstdiv::after{
+         top: 90%;
+     }
+     .underline{
+         transform: translate(60px,-292px);
+         width: 70%;
+     }
+     .america{
+         left: 60px;
+         top: -293px;
+         width: 70%;
+         height: 280px;
+     }
+     .underDiv{
+         height: 100px;
+     }
+     .bgDiv{
+         height: 100px;
+         width: 130px;
+         left: 55%;
+     }
+     .bgDiv p{
+         font-size: 13px;
+         margin: auto;
+         padding-top: 23px;
+         width: 100%;
+         padding-left: 10px;
+     }
+     .underImage{
+         width: 160px;
+         height: 120px;
+         top: -20px;
+     }
+     .lastImage{
+         position: relative;
+         top: 20%;
+         height: 200px;
+     }
+     .lastImage div:first-child{
+         height: 60%;
+     }
+     .lastImage div:last-child{
+         height: 60%;
+     }
+     .lastImage div p{
+         transform: translate(0px,120px);
+         font-size: 15px;
+     }
+ }
+ @media(max-width: 400px){
+     #firstp{
+         transform: translate(100px,-300px);
+         font-size: 20px;
+         width: 260px;
+     }
+     #firstp:after{
+         left: 35%;
+         top: 47px;
+     }
+     .area{
+         top: -300px;
+         width: 70%;
+         height: 100px;
+     }
+     .area div{
+         font-size: 10px;
+     }
+     .firstdiv::after{
+         top: 92%;
+     }
+     .underline{
+         transform: translate(58px,-301px);
+         width: 70%;
+     }
+     .america{
+         left: 60px;
+         top: -301px;
+         width: 70%;
+         height: 280px;
+     }
+     .underDiv{
+         height: 130px;
+     }
+     .underDiv p{
+         font-size: 13px;
+     }
+     .bgDiv{
+         height: 120px;
+     }
+     .underImage{
+         width: 150px;
+         height: 150px;
+     }
+     .lastImage{
+         height: 230px;
+     }
+     .lastImage div:first-child{
+         height: 60%;
+     }
+     .lastImage div:last-child{
+         height: 60%;
+     }
+     .lastImage div p{
+         transform: translate(0px,150px);
+         font-size: 15px;
+     }
+ }
+ @media(max-width: 380px){
+     #firstp{
+         transform: translate(80px,-300px);
+     }
+     #firstp:after{
+         left: 40%;
+     }
+     .area{
+         top: -305px;
+         width: 70%;
+         height: 105px;
+     }
+     .area div{
+         font-size: 12px;
+     }
+     .area div p{
+         font-size: 10px;
+     }
+     .firstdiv::after{
+         top: 93%;
+     }
+     .underline{
+         transform: translate(56px,-306px);
+         width: 70%;
+     }
+     .america{
+         left: 56px;
+         top: -306px;
+         width: 70%;
+         height: 250px;
+     }
+     .underDiv{
+         height: 100px;
+     }
+     .bgDiv{
+         height: 100px;
+         width: 38%;
+         left: 56%;
+     }
+     .underDiv p{
+         font-size: 13px;
+         margin-top: 0%;
+     }
+     .underImage{
+         width: 150px;
+         height: 120px;
+     }
+     .lastImage{
+         height: 220px;
+     }
+     .lastImage div:first-child{
+         height: 60%;
+     }
+     .lastImage div:last-child{
+         height: 60%;
+     }
+     .lastImage div p{
+         transform: translate(0px,132px);
+     }
+ }
+ @media(max-width: 370px){
+     #firstp{
+         transform: translate(80px,-300px);
+     }
+     #firstp:after{
+         left: 38%;
+     }
+     .area{
+         top: -300px;
+         width: 70%;
+         height: 100px;
+     }
+     .area div{
+         font-size: 10px;
+     }
+     .firstdiv::after{
+         top: 92%;
+     }
+     .underline{
+         transform: translate(54px,-301px);
+         width: 70%;
+         height: 1px;
+     }
+     .america{
+         left: 55px;
+         top: -301px;
+         width: 70%;
+         height: 250px;
+     }
+     .underDiv{
+         height: 100px;
+     }
+     .bgDiv{
+         height: 100px;
+         width: 130px;
+     }
+     .bgDiv p{
+         padding-top: 15px;
+     }
+     .underImage{
+         width: 140px;
+         height: 120px;
+     }
+     .lastImage{
+         height: 200px;
+     }
+     .lastImage div:first-child{
+         height: 60%;
+     }
+     .lastImage div:last-child{
+         height: 60%;
+     }
+     .lastImage div p{
+         transform: translate(0px,120px);
+     }
+ }
+ @media(max-width: 300px){
+     #firstp{
+         transform: translate(30px,-300px);
+         font-size: 20px;
+         width: fit-content;
+     }
+     #firstp:after{
+         left: 50%;
+         top: 50px;
+     }
+     .area{
+         top: -284px;
+         width: 70%;
+         height: 84.9px;
+     }
+     .area div{
+         font-size: 10px;
+     }
+     .area div p{
+         font-size: 7.4px;
+     }
+     .firstdiv::after{
+         top: 92%;
+         left: 23%;
+         width: 10px;
+         height: 10px;
+     }
+     #secondp{
+         padding-top: 30px;
+     }
+     .underline{
+         transform: translate(43px,-286px);
+         width: 70%;
+     }
+     .america{
+         left: 42px;
+         top: -286px;
+         width: 70%;
+         height: 250px;
+     }
+     .underDiv{
+         height: 80px;
+     }
+     .bgDiv{
+         height: 80px;
+         left: 52%;
+     }
+     .bgDiv p{
+         font-size: 12px;
+         padding-top: 15px;
+         padding-left: 0px;
+     }
+     .lastDiv{
+         height: 150px;
+     }
+     .lastbgDiv p{
+         font-size: 20px;
+     }
+     .underImage{
+         width: 100px;
+         height: 100px;
+     }
+     .lastImage{
+         height: 160px;
+     }
+     .lastImage div:first-child{
+         height: 60%;
+     }
+     .lastImage div:last-child{
+         height: 60%;
+     }
+     .lastImage div p{
+         transform: translate(0px,100px);
+         font-size: 13px;
+     }
+ }

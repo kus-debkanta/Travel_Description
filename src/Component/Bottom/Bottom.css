@@ -1,0 +1,1578 @@
+.bottom_Content{
+    width: 80%;
+    margin: auto;
+    height: fit-content;
+    position: relative;
+    top: 320px;
+}
+.bottom_Content h1{
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.bottom_Content a{
+    position: relative;
+    left: 49%;
+    color: orange;
+    font-size: 150%;
+}
+.para{
+    position: relative;
+    left: 55%;
+    top: -15px;
+    width: 40%;
+    height: fit-content;
+}
+.para_p{
+    font-size: 18px;
+    color: rgb(12, 4, 73);
+    font-weight: 600;
+}
+.dotted_box_p{
+    font-size: 15px;
+    color: rgb(32, 6, 110);
+    position: relative;
+    left: 50%;
+    top: 75%;
+    z-index: 1000;
+    font-weight: 500;
+}
+.dashedline{
+    border: 1px dashed orange;
+    width: .01px;
+    height: 150px;
+    position: relative;
+    top: -110px;
+    left: 50%;
+    display: grid;
+}
+.mainDiv{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    top: -60px;
+}
+.img_portion{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    top: -65px;
+    left: 10%;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    z-index: 1000;
+}
+.img_portion img{
+    width: 49%;
+    height: 100%;
+}
+.or{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fdfcfc;
+    position: absolute;
+    top: 47.5%;
+    left: 47%;
+    text-align: center;
+}
+.or h3{
+    color: blue;
+    position: relative;
+    top: -9px;
+}
+.img_portion p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(253, 253, 254);
+    position: absolute;
+}
+#first_p{
+    top: 42%;
+    left: 12%;
+}
+.img_portion p:last-child{
+    top: 42%;
+    left: 63%;
+}
+.box_container{
+    height: 380px;
+    background-color: #c3bbf1;
+    position: relative;
+    top: -260px;
+}
+.dotted_box{
+    width: 90%;
+    height: 50%;
+    position: relative;
+    top: 60px;
+    left: 58px;
+    border: 1px dashed blue;
+}
+.box_container p{
+    transform: translate(-50%,-230px);
+    text-align: center;
+    width: 250px;
+    font-size: 25px;
+    color: rgb(49, 5, 93);
+}
+.bottom_image_container{
+    width: 80%;
+    height: 450px;
+    position: relative;
+    top: -320px;
+    margin: auto;
+    background-color: #ffffff;
+}
+.bottom_image_container h3{
+    padding-top: 30px;
+    color: rgb(16, 16, 142);
+    text-align: center;
+    font-size: 25px;
+}
+.bottom_images{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.first_bottom_images{
+    display: flex;
+    width: 49.5%;
+    height: 100%;
+    justify-content: space-between;
+}
+.last_bottom_images{
+    width: 49.5%;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+.bottom_image{
+    width:49%;
+    height: 100%;
+}
+.bottom_image img{
+    width: 100%;
+    height: 50%;
+}
+.bottom_exp{
+    font-size: 18px;
+    color: orangered;
+    font-weight: 500;
+    margin: 0px;
+    color: orangered;
+    font-weight: 500;
+    margin: 0px;
+    padding: 3%;
+}
+.bottom_places{
+    color: rgb(13, 13, 104);
+    font-size: 15px;
+    margin: 0px;
+    font-weight: 600;
+    padding: 3%;
+}
+.bottom_image_container button{
+    padding: 8px 20px;
+    background-color: rgb(238, 157, 6);
+    border: none;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    left: 40%;
+    top: 10%;
+}
+
+/* Down content */
+
+.down_area{
+    width: 100%;
+    height: 40rem;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+.down_area h2{
+    text-align: center;
+    color: rgb(5, 5, 96);
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.down_div{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.down_left{
+    width: 150%;
+    height: 100%;
+    background-color: #0d7393;
+}
+.down_left img{
+    width: 100%;
+    height: 100%;
+}
+.down_right{
+    padding: 0px 30px;
+}
+.down_right h3,p{
+    color: rgb(4, 4, 81);
+}
+.down_right button{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(238, 157, 6);
+    color: white;
+    font-size: 15px;
+}
+.exploreP{
+    font-size: 18px;
+    color: rgb(238, 157, 6);
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.down_right div{
+   width: 100px;
+   height: 2px;
+   background-color: orange;
+   transform: translate(170px,-10px);
+}
+.down_right span{
+    display: flex;
+}
+.lastp{
+    font-size: 15px;
+    color: rgb(6, 6, 94);
+    text-decoration: underline;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.last_span{
+    display: flex;
+    margin-left: 100px;  
+    position: relative;
+    top: 100px;
+
+}
+.last_span p{
+    font-size: 20px;
+    color: rgb(6, 6, 94);
+    font-weight: 500;
+}
+.last_span img{
+    width: 250px;
+    height: 70px;
+}
+/* @media(max-width: 1300px){
+    .bottom_Content{
+        top: 1000px;
+        height: 2200px;
+    }
+    .para{
+        left: 550px;
+        top: -23px;
+        width: 460px;
+        height: 120px;
+    }
+    .para_p{
+        font-size: 25px;
+        left: 0px;
+    }
+    .bottom_Content h1{
+        font-size: 40px;
+    }
+    .bottom_Content a{
+        font-size: 35px;
+        left: 48%;
+    }
+    .mainDiv{
+        height: 600px;
+        transform: translateY(-50PX);
+    }
+    .img_portion{
+        height: 250px;
+        top: -100px;
+        width: 90%;
+        left: 5%;
+    }
+    .or{
+        width: 70px;
+        height: 70px;
+        top: 45%;
+        left: 46%;
+    }
+    .img_portion p{
+        font-size: 30px;
+    }
+    #first_p{
+        top: 36%;
+        left: 10%;
+    }
+    .img_portion p:last-child{
+        top: 36%;
+        left: 60%;
+    }
+    .dotted_box{
+        width: 980px;
+        left: 17px;
+        height: 150px;
+    }
+    .box_container p{
+        transform: translate(-145px,-235px);
+        font-size: 35px;
+        width: 400px;
+    }
+    .bottom_image_container{
+        top: -320px;
+        width: 90%;
+        height: 300px;
+    }
+    .bottom_images{
+        height: 250px;
+    }
+    .bottom_image{
+        width: 24%;
+    }
+    .bottom_exp{
+        font-size: 25px;
+    }
+    .bottom_places{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .bottom_image_container button{
+        top: 35%;
+        left: 38%;
+        width: 200px;
+        height: 50px;
+        font-size: 23px;
+    }
+    .dashedline{
+        width: 1px;
+        top: -150px;
+        left: 50%;
+        height: 150px;
+    }
+    .down_area{
+        margin-top: 100px;
+    }
+    .down_area h2{}
+    .down_div{
+        display: block;
+        height: 50rem;
+    }
+    .down_left{
+        width: 100%;
+        height: 50%;
+    }
+    .down_right{
+        width: 100%;
+        padding: 0px;
+    }
+    .down_right h3{
+        font-size: 30px;
+    }
+    .down_right p{
+        font-size: 25px;
+    }
+    .down_right span{
+        display: flex;
+    }
+    .down_right span p{
+        font-size: 28px;
+    }
+    .down_right button{
+        font-size: 20px;
+    }
+    .exploreP{
+        font-size: 30px;
+
+    }
+    .lastp{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .last_span{
+        transform: translateY(380PX);
+        margin-left: 0px;
+    }
+    .last_span p{
+        font-size: 28px;
+    }
+    .last_span img{
+        width: 300px;
+        height: 120px;
+        margin-left: 20px;
+    }
+} */
+
+/* @media(min-width: 1010px){
+    .bottom_Content{
+        top: 800px;
+    }
+    .para{
+        left: 450px;
+        top: -15px;
+        width: 300px;
+        height: 120px;
+    }
+    .para_p{
+        font-size: 20px;
+        left: 0px;
+    }
+    .bottom_Content h1{
+        font-size: 40px;
+    }
+    .bottom_Content a{
+        font-size: 35px;
+        left: 48%;
+    }
+    .mainDiv{
+        height: 600px;
+    }
+    .img_portion{
+        height: 250px;
+        top: -100px;
+        width: 90%;
+        left: 5%;
+    }
+    #first_p{
+        font-size: 28px;
+        left: 8%;
+        top: 40%;
+    }
+    .img_portion p:last-child{
+        font-size: 28px;
+        left: 60%;
+        top: 40%;
+    }
+    .dotted_box{
+        width: 780px;
+        left: 17px;
+        height: 150px;
+    }
+    .box_container p{
+        transform: translate(-120px,-230px);
+        font-size: 30px;
+        width: 300px;
+    }
+    .or{
+        width: 80px;
+        height: 80px;
+        top: 40%;
+        left: 45%;
+    }
+    .bottom_image_container{
+        top: -320px;
+        width: 90%;
+        height: 300px;
+    }
+    .bottom_images{
+        height: 250px;
+    }
+    .bottom_image{
+        width: 24%;
+    }
+    .bottom_exp{
+        font-size: 20px;
+    }
+    .bottom_places{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .bottom_image_container button{
+        top: 30%;
+        left: 30%;
+        width: 200px;
+        height: 50px;
+        font-size: 25px;
+    }
+    .dashedline{
+        width: 1px;
+        top: -150px;
+        left: 50%;
+        height: 150px;
+    }
+    .down_area{
+        margin-top: 150px;
+    }
+    .down_div{
+        display: block;
+        height: 50rem;
+    }
+    .down_left{
+        width: 100%;
+        height: 50%;
+    }
+    .down_right{
+        width: 100%;
+        padding: 0px;
+    }
+    .down_right h3{
+        font-size: 28px;
+    }
+    .down_right p{
+        font-size: 20px;
+    }
+    .down_right span{
+        display: flex;
+    }
+    .down_right span p{
+        font-size: 25px;
+    }
+    .down_right button{
+        font-size: 20px;
+    }
+    .exploreP{
+        font-size: 30px;
+
+    }
+    .lastp{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .last_span{
+        transform: translateY(380PX);
+        margin-left: 0px;
+    }
+    .last_span p{
+        font-size: 25px;
+    }
+    .last_span img{
+        width: 280px;
+        height: 100px;
+        margin-left: 20px;
+    }
+} */
+@media(max-width: 1000px){
+    .bottom_Content{
+        top: 650px;
+    }
+    .para{
+        left: 400px;
+        top: -15px;
+        width: 300px;
+        height: 120px;
+    }
+    .para_p{
+        font-size: 23px;
+        left: 0px;
+    }
+    .bottom_Content h1{
+        font-size: 50px;
+    }
+    .bottom_Content a{
+        font-size: 35px;
+        left: 48%;
+    }
+    .mainDiv{
+        height: 600px;
+        top: -20px;
+    }
+    .img_portion{
+        height: 250px;
+        top: -120px;
+        width: 90%;
+        left: 5%;
+    }
+    #first_p{
+        font-size: 28px;
+        left: 8%;
+        top: 40%;
+    }
+    .img_portion p:last-child{
+        font-size: 28px;
+        left: 60%;
+        top: 40%;
+    }
+    .dotted_box{
+        left: 17px;
+        height: 150px;
+        width: 95%;
+    }
+    .box_container p{
+        transform: translate(-150px,-210px);
+        font-size: 38px;
+        width: 350px;
+    }
+    .or{
+        width: 80px;
+        height: 80px;
+        top: 40%;
+        left: 44%;
+    }
+    .or h3{
+        top: -9px;
+        font-size: 28px;
+    }
+    .bottom_image_container{
+        top: -330px;
+        width: 90%;
+        height: 550px;
+    }
+    .bottom_exp{
+        font-size: 30px;
+    }
+    .bottom_places{
+        font-size: 26px;
+        text-align: justify;
+    }
+    .bottom_image_container button{
+        top: 40%;
+        left: 35%;
+        width: fit-content;
+        height: fit-content;
+        font-size: 30px;
+        padding: 10px 30px;
+    }
+    .dashedline{
+        width: 1px;
+        top: -150px;
+        left: 50%;
+        height: 200px;
+    }
+    .down_area{
+        top: 400px;
+    }
+    .down_area h2{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .down_div{
+        display: block;
+        height: 50rem;
+    }
+    .down_left{
+        width: 100%;
+        height: 80%;
+    }
+    .down_right{
+        width: 100%;
+        padding: 0px;
+    }
+    .down_right h3{
+        font-size: 32px;
+    }
+    .down_right p{
+        font-size: 28px;
+    }
+    .down_right span{
+        display: flex;
+    }
+    .down_right span p{
+        font-size: 28px;
+    }
+    .down_right button{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .down_right div{
+        transform: translate(258px,-15px);
+    }
+    .exploreP{
+        font-size: 50px;
+
+    }
+    .lastp{
+        font-size: 28px;
+        margin-top: 20px;
+    }
+    .last_span{
+        top: 1000px;
+        margin-left: 30px;
+    }
+    .last_span p{
+        font-size: 28px;
+        margin-right: 10px;
+    }
+    .last_span img{
+        width: 300px;
+        height: 100px;
+        margin-left: 20px;
+    }
+}
+@media(max-width: 900px){
+    .bottom_Content{
+        top: 800px;
+    }
+    .para{
+        left: 350px;
+        top: -15px;
+        width: 300px;
+    }
+    .para_p{
+        font-size: 20px;
+        left: 0px;
+    }
+    .dashedline{
+        left: 50.5%;
+        height: 200px;
+    }
+    .mainDiv{
+        height: 600px;
+    }
+    .img_portion{
+        height: 230px;
+        top: -120px;
+    }
+    .dotted_box{
+        width: 95%;
+    }
+    .box_container p{
+        transform: translate(-140px,-230px);
+        font-size: 35px;
+    }
+    .or{
+        top: 44%;
+        left: 45%;
+        width: 60px;
+        height: 60px;
+    }
+    .or h3{
+        top: -16px;
+        font-size: 25px;
+    }
+    #first_p{
+        font-size: 25px;
+        left: 8%;
+        top: 35%;
+    }
+    .img_portion p:last-child{
+        font-size: 25px;
+        left: 60%;
+        top: 35%;
+    }
+    .bottom_image_container{
+        top: -350px;
+        width: 90%;
+        height: 550px;
+    }
+    .bottom_exp{
+        font-size: 25px;
+    }
+    .bottom_places{
+        font-size: 22px;
+    }
+    .bottom_image_container button{
+        top: 30%;
+        left: 35%;
+        width: 250px;
+        height: 60px;
+    }
+    .down_area{
+        top: 200px;
+    }
+    .down_div{
+        display: block;
+    }
+    .down_left{
+        width: 100%;
+    }
+    .down_right{
+        width: 100%;
+        padding: 0px;
+    }
+    .down_right span{
+        display: flex;
+    }
+    .exploreP{
+        font-size: 20px;
+    }
+    .down_right div{
+        transform: translate(250px,-10px);
+     }
+    .last_span{
+        top: 900px;
+    }
+    .last_span p{
+        font-size: 25px;
+    }
+    .last_span img{
+        width: 260px;
+        height: 80px;
+        margin-left: 20px;
+    }
+}
+@media(max-width: 800px){
+    .bottom_Content{
+        top: 700px;
+    }
+    .para{
+        left: 350px;
+        top: -15px;
+        width: 250px;
+    }
+    .para_p{
+        font-size: 18px;
+        left: 0px;
+    }
+    .dashedline{
+        left: 51%;
+    }
+    .mainDiv{
+        height: 600px;
+    }
+    .img_portion{
+        height: 230px;
+        top: -120px;
+    }
+    .dotted_box{
+        width: 580px;
+        left: 18px;
+        height: 150px;
+    }
+    .dotted_box_p{
+        left: 46%;
+        font-size: 25px;
+    }
+    .or{
+        top: 44%;
+        left: 45%;
+    }
+    .bottom_image_container{
+        top: -330px;
+        width: 90%;
+        height: 400px;
+    }
+    .bottom_exp{
+        font-size: 25px;
+        padding: 5px;
+    }
+    .bottom_places{
+        font-size: 20px;
+        text-align: justify;
+        padding: 5px;
+    }
+    .bottom_image_container button{
+        top: 40%;
+        left: 30%;
+        width: 250px;
+        height: 60px;
+    }
+    .down_div{
+        display: block;
+    }
+    .down_left{
+        width: 100%;
+    }
+    .down_right{
+        width: 100%;
+        padding: 0px;
+    }
+    .down_right h3{
+        font-size: 25px;
+    }
+    .down_right p{
+        font-size: 25px;
+    }
+    .down_right div{
+        transform: translate(250px,-12px);
+    }
+    .down_right span{
+        display: flex;
+    }
+    .down_right span p{
+        font-size: 25px;
+    }
+    .last_span{
+        top: 800px;
+    }
+    .last_span p{
+        font-size: 23px;
+    }
+    .last_span img{
+        width: 300px;
+        height: 80px;
+        margin-left: 20px;
+    }
+}
+@media(max-width: 600px){
+    .bottom_Content{
+        top: 500px;
+
+    }
+    .bottom_Content h1{
+        font-size: 30px;
+    }
+    .para{
+        left: 250px;
+        top: -15px;
+        width: 180px;
+    }
+    .para_p{
+        font-size: 15px;
+        left: 0px;
+    }
+    .dashedline{
+        left: 51.5%;
+    }
+    .mainDiv{
+        position: relative;
+        top: -80px;
+        height: 600px;
+    }
+    .img_portion{
+        height: 200px;
+        top: -120px;
+    }
+    .dotted_box{
+        width: 400px;
+        left: 18px;
+        height: 120px;
+    }
+    .box_container{
+        height: 300px;
+    }
+    .box_container p{
+        transform: translate(-150px,-160px);
+        font-size: 23px;
+    }
+    .or{
+        top: 44%;
+        left: 44%;
+        width: 50px;
+        height: 50px;
+    }
+    .or h3{
+        top: -9px;
+        font-size: 20px;
+    }
+    #first_p{
+        left: 5%;
+        top: 40%;
+        font-size: 18px;
+    }
+    .img_portion p:last-child{
+        left: 60%;
+        font-size: 18px;
+        top: 40%;
+    }
+    .bottom_image_container{
+        top: -300px;
+        width: 90%;
+        height: 300px;
+    }
+    .bottom_exp{
+        font-size: 16px;
+    }
+    .bottom_places{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .bottom_image_container button{
+        top: 39%;
+        left: 25%;
+        font-size: 20px;
+    }
+    .down_area{
+       top: -100px; 
+    }
+    .down_area h2{
+        font-size: 35px;
+    }
+    .down_div{
+        display: block;
+        margin-top: 20px;
+    }
+    .down_left{
+        width: 100%;
+        height: 300px;
+    }
+    .down_right{
+        width: 100%;
+        padding: 0px;
+    }
+    .down_right h3{
+        font-size: 20px;
+    }
+    .down_right p{
+        font-size: 18px;
+    }
+    .down_right button{
+        font-size: 15px;
+    }
+    .down_right span{
+        display: flex;
+        font-size: 15px;
+    }
+    .down_right div{
+        transform: translate(180px,-12px);
+    }
+    .down_right span p{
+        font-size: 18px;
+    }
+    .last_span{
+        top: 250px;
+    }
+    .last_span p{
+        font-size: 16px;
+    }
+    .last_span img{
+        width: 180px;
+    }
+}
+@media(max-width: 500px){
+    .bottom_Content{
+        top: 500px;
+    }
+    .bottom_Content a{
+        left: 45%;
+    }
+    .para{
+        left: 178px;
+        top: -10px;
+        width: 150px;
+    }
+    .para_p{
+        font-size: 15px;
+    }
+    .dashedline{
+        left: 50%;
+    }
+    .mainDiv{
+        height: 600px;
+    }
+    .img_portion{
+        height: 180px;
+        width: 85%;
+        left: 7.2%;
+    }
+    .box_container{
+        height: 300px;
+    }
+    .dotted_box{
+        width: 300px;
+        left: 13px;
+        height: 120px;
+    }
+    .box_container p{
+       transform: translate(-150px,-160px);
+       font-size: 25px;
+    }
+    .or{
+        top: 44%;
+        left: 43%;
+        width: 40px;
+        height: 40px;
+    }
+    .or h3{
+        top: -6px;
+        font-size: 15px;
+    }
+    .img_portion p{
+        font-size: 14px;
+    }
+    #first_p{
+        top: 40%;
+        left: 5%;
+        font-size: 13px;
+    }
+    .img_portion p:last-child{
+        top: 40%;
+        left: 60%;
+        font-size: 13px;
+    }
+    .bottom_image_container{
+        top: -300px;
+        width: 90%;
+        height: 300px;
+    }
+    .bottom_images{
+        display: block;
+    }
+    .first_bottom_images{
+        width: 100%;
+    }
+    .last_bottom_images{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .imageContent{
+        top: -60px;
+        width: 90%;
+        height: fit-content;
+    }
+    .bottom_exp{
+        font-size: 23px;
+    }
+    .bottom_places{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .bottom_image_container button{
+        top: 120%;
+        left: 13%;
+    }
+    .down_area{
+        top: 100px;
+    }
+    .down_div{
+        display: block;
+    }
+    .down_left{
+        width: 100%;
+        height: 300px;
+    }
+    .down_right{
+        width: 100%;
+        padding: 0px;
+    }
+    .down_right span{
+        display: flex;
+    }
+    .last_span{
+        top: 500px;
+        display: block;
+    }
+    .last_span p{
+        font-size: 20px;
+    }
+    .last_span img{
+        width: 230px;
+        height: 100px;
+    }
+}
+@media(max-width: 400px){
+    .bottom_Content{
+        top: 400px;
+        height: 2000px;
+    }
+    .para{
+        left: 180px;
+        top: -15px;
+        width: 120px;
+    }
+    .para_p{
+        font-size: 13px;
+    }
+    .dashedline{
+        left: 50%;
+    }
+    .mainDiv{
+        height: 600px;
+    }
+    .img_portion{
+        height: 180px;
+    }
+    #first_p{
+        left: 2%;
+        top: 42%;
+    }
+    .img_portion p:last-child{
+        top: 40%;
+    }
+    .dotted_box{
+        width: 280px;
+        left: 15px;
+    }
+    .box_container{
+        height: 280px;
+    }
+    .box_container p{
+        width: 250px;
+        transform: translate(-40%,-140px);
+        font-size: 23px;
+    }
+    .or{
+        top: 44%;
+        left: 43%;
+    }
+    .or h3{
+        top: -8px;
+        font-size: 16px;
+    }
+    .bottom_image_container{
+        top: -300px;
+        width: 90%;
+        height: 300px;
+    }
+    .bottom_images{
+        display: block;
+    }
+    .first_bottom_images{
+        width: 100%;
+    }
+    .last_bottom_images{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .bottom_exp{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .bottom_places{
+        font-size: 15px;
+        text-align: justify;
+        padding: 5px;
+    }
+    .bottom_image_container button{
+        top: 320px;
+        left: 23px;
+        height: 50px;
+        width: 250px;
+    }
+    .down_area{
+        top: 60px;
+    }
+    .down_div{
+        display: block;
+    }
+    .down_left{
+        width: 100%;
+    }
+    .down_right{
+        width: 100%;
+        padding: 0px;
+    }
+    .down_right span{
+        display: flex;
+    }
+    .down_right span p{
+        font-size: 15px;
+    }
+    .last_span{
+        top: 480px;
+        margin-left: 0px;
+    }
+    .last_span p{
+        font-size: 18px;
+    }
+    .last_span img{
+        transform: translate(50px,0px);
+        width: 180px;
+    }
+    
+}
+@media(max-width: 380px){
+    .bottom_Content{
+        top: 400px;
+    }
+    .para{
+        left: 160px;
+        top: -13px;
+        width: 120px;
+    }
+    .para_p{
+        font-size: 12px;
+    }
+    .dashedline{
+        left: 50%;
+        top: -135px;
+    }
+    .mainDiv{
+        height: 600px;
+    }
+    .img_portion{
+        height: 160px;
+    }
+    #first_p{
+        font-size: 12px;
+    }
+    .img_portion p:last-child{
+        font-size: 12px;
+        top: 42%;
+        left: 58%;
+    }
+    .dotted_box{
+        width: 270px;
+        left: 15px;
+    }
+    .or{
+        top: 44%;
+        left: 42.5%;
+    }
+    .or h3{
+        top: -9px;
+        font-size: 16px;
+    }
+    .bottom_image_container{
+        top: -300px;
+        width: 90%;
+        height: 300px;
+    }
+    .bottom_images{
+        display: block;
+    }
+    .first_bottom_images{
+        width: 100%;
+    }
+    .last_bottom_images{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .bottom_exp{
+        font-size: 18px;
+    }
+    .bottom_places{
+        font-size: 13px;
+        text-align: justify;
+    }
+    .bottom_image_container button{
+        top: 100%;
+        left: 10%;
+        width: 230px;
+    }
+    .down_div{
+        display: block;
+    }
+    .down_left{
+        width: 100%;
+        height: 300px;
+    }
+    .down_right{
+        width: 100%;
+        padding: 0px;
+    }
+    .down_right div{
+        transform: translate(160px,-10px);
+    }
+    .down_right p{
+        font-size: 15px;
+    }
+    .down_right span{
+        display: flex;
+    }
+    .down_right span p{
+        font-size: 15px;
+    }
+    .last_span{
+        top: 450px;
+    }
+    .last_span p{
+        font-size: 16px;
+    }
+    .last_span img{
+        width: 160px;
+        height: 80px;
+    }
+}
+@media(max-width: 370px){
+    .bottom_Content{
+        top: 400px;
+    }
+    .para{
+        left: 160px;
+        top: -20px;
+        width: 120px;
+    }
+    .para_p{
+        font-size: 12px;
+    }
+    .dashedline{
+        left: 52%;
+    }
+    .mainDiv{
+        height: 600px;
+    }
+    .img_portion{
+        height: 150px;
+        top: -150px;
+    }
+    .dotted_box{
+        width: 260px;
+        left: 12px;
+        height: 80px;
+    }
+    .or{
+        top: 44%;
+        left: 40%;
+    }
+    .or h3{
+        top: -6px;
+        font-size: 15px;
+    }
+    .box_container{
+        height: 250px;
+    }
+    .box_container p{
+        transform: translate(-90px,-110px);
+    }
+    .bottom_image_container{
+        top: -300px;
+        width: 90%;
+        height: 300px;
+    }
+    .bottom_images{
+        display: block;
+    }
+    .first_bottom_images{
+        width: 100%;
+    }
+    .last_bottom_images{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .bottom_exp{
+        font-size: 16px;
+        padding: 5px;
+    }
+    .bottom_places{
+        font-size: 15px;
+        text-align: justify;
+        padding: 5px;
+    }
+    .bottom_image_container button{
+        top: 110%;
+        left: 10%;
+    }
+    .down_area{
+        top: 0px;
+    }
+    .down_div{
+        display: block;
+    }
+    .down_left{
+        width: 100%;
+        height: 300px;
+    }
+    .down_right{
+        width: 100%;
+        padding: 0px;
+    }
+    .down_right span{
+        display: flex;
+    }
+    .last_span{
+        top: 380px;
+    }
+    .last_span p{
+        font-size: 16px;
+    }
+    .last_span img{
+        width: 180px;
+    }
+}
+@media(max-width: 300px){
+    .bottom_Content{
+        top: 400px;
+    }
+    .bottom_Content h1{
+        font-size: 20px;
+    }
+    .bottom_Content a{
+        font-size: 26px;
+    }
+    .para{
+        left: 130px;
+        top: -20px;
+        width: 90px;
+    }
+    .para_p{
+        font-size: 10px;
+    }
+    .dashedline{
+        left: 50%;
+    }
+    .mainDiv{
+        height: 600px;
+    }
+    .img_portion{
+        height: 150px;
+    }
+    #first_p{
+        font-size: 9px;
+        left: 5%;
+    }
+    .img_portion p:last-child{
+        font-size: 9px;
+        top: 42%;
+    }
+    .dotted_box{
+        width: 206px;
+        left: 8px;
+        height: 90px;
+    }
+    .box_container p{
+        width: fit-content;
+        font-size: 20px;
+        transform: translate(-80px,-110px);
+    }
+    .or{
+        top: 44%;
+        left: 42%;
+        width: 30px;
+        height: 30px;
+    }
+    .or h3{
+        top: -9px;
+        font-size: 13px;
+    }
+    .bottom_image_container{
+        top: -300px;
+        width: 90%;
+        height: 300px;
+    }
+    .bottom_images{
+        display: block;
+    }
+    .first_bottom_images{
+        width: 100%;
+    }
+    .last_bottom_images{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .bottom_exp{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .bottom_places{
+        font-size: 15px;
+        text-align: justify;
+        padding: 5px;
+    }
+    .bottom_image_container button{
+        top: 120%;
+        left: 15%;
+        font-size: 14px;
+        width: 150px;
+        height: 40px;
+    }
+    .down_area h2{
+        font-size: 25px;
+    }
+    .down_div{
+        display: block;
+    }
+    .down_left{
+        width: 100%;
+        height: 250px;
+    }
+    .down_right{
+        width: 100%;
+        padding: 0px;
+    }
+    .down_right h3{
+        font-size: 15px;
+    }
+    .down_right p{
+        font-size: 13px;
+    }
+    .down_right span{
+        display: flex;
+    }
+    .down_right span p{
+        font-size: 13px;
+    }
+    .last_span{
+        top: 300px;
+    }
+    .last_span p{
+        font-size: 12px;
+    }
+    .exploreP{
+        font-size: 20px;
+    }
+    .down_right div{
+        transform: translate(120px,-8px);
+    }
+    .last_span img{
+        width: 130px;
+        height: 40px;
+    }
+}
